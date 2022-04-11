@@ -36,3 +36,5 @@ Copy all files to `/usr/share/fonts` or `~/.local/share/fonts` and then:
 ```sh
 fc-cache -fv
 ```
+
+Change the font in the terminal

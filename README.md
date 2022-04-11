@@ -22,7 +22,7 @@ mkdir .config/zsh
 - Restart terminal
 > You can also work with symlinks
 
-### Font 
+## Font 
 
 https://ostechnix.com/install-nerd-fonts-to-add-glyphs-in-your-code-on-linux/
 

@@ -40,7 +40,9 @@ require'nvim-treesitter.configs'.setup {
     disable = {},
     -- additional_vim_regex_highlighting = false,
   },
-  indent = { enable = true },
+  indent = { 
+  enable = true,
+  },
 }
 
 EOF
@@ -51,3 +53,9 @@ let g:floaterm_keymap_toggle = '<Leader>t'
 
 " airline
 let g:airline_powerline_fonts = 1
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'default'

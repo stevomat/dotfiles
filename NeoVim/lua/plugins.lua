@@ -15,8 +15,8 @@ return require('packer').startup(function()
 
     use 'voldikss/vim-floaterm'
 
-    use 'kyazdani42/nvim-web-devicons'
-    use 'romgrk/barbar.nvim'
+--    use 'kyazdani42/nvim-web-devicons'
+--    use 'romgrk/barbar.nvim'
 
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'

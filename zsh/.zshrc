@@ -5,6 +5,11 @@
 export LANG=en_US.UTF-8
 export LANGUAGE=en
 
+# make nvim as default editor
+
+export VISUAL=nvim
+export EDITOR='$VISUAL'
+
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000

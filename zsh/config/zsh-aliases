@@ -11,7 +11,7 @@ alias ..='cd ..'
 alias c='clear'
 
 alias cdinfai='cd /home/steve/Dokumente/InfAI'
-alias vim='nvim'
+#alias vim='nvim'
 
 alias glola='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'\'' --all'
 alias push_wiki='git add -A && git commit -a -m "Update Wiki" && git push'

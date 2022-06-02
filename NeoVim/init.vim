@@ -28,24 +28,8 @@ set noswapfile            " disable creating swap file
 set nobackup nowritebackup
 set noshowmode
 
-"Treesitter
-lua <<EOF
 
-require'nvim-treesitter.configs'.setup {
-  
-  ensure_installed = "all",
 
-  highlight = {
-    enable = true,
-    disable = {},
-    -- additional_vim_regex_highlighting = false,
-  },
-  indent = { 
-  enable = true,
-  },
-}
-
-EOF
 
 " Vim Keymaps TODO: convert to lua
 let g:floaterm_keymap_new = '<Leader>ft'

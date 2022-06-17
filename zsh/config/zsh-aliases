@@ -18,7 +18,5 @@ alias push_wiki='git add -A && git commit -a -m "Update Wiki" && git push'
 
 alias git='LANG=en_US.UTF-8 git'
 
-alias start_vpn='snx -s vpn.htwk-leipzig.de -u sviellan '
-alias stop_vpn='snx -d'
 #alias ec="$EDITOR $HOME/.zshrc" # edit .zshrc
 #alias sc="source $HOME/.zshrc"  # reload zsh configuration
